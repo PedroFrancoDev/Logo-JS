@@ -1,0 +1,40 @@
+html, body, #caixa {
+    height: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 1274;
+    align-items: center;
+    justify-content: center;
+
+    background: url(/imagens/depositphotos_155903138-stock-photo-opened-book-on-wooden-table.jpg);
+}
+
+section#caixa {
+    height: 245px;
+    width: 250px;
+    background: rgb(243, 207, 47);
+
+    border-radius: 4px;
+    box-shadow: 1px 1px 50px black;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+section#caixa div {
+    font-family: arial;
+    font-size: 130px;
+}
